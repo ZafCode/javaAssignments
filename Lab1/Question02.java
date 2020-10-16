@@ -26,7 +26,7 @@ love6(12, 6); ->true*/
 		
 		if (num1==6 || num2==6) {
 			System.out.println("true");
-		}else if (num1-num2==6 || num1+num2==6) {
+		}else if (num1-num2==6 || num1+num2==6 || num2-num1==6) {
 			System.out.println("true");
 		}else {
 			System.out.println("false");
